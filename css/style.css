@@ -1,0 +1,60 @@
+.heading{
+    text-align: center;
+    font-size: larger;
+}
+.bg-color{
+    background-color: burlywood;
+}
+.rtc-logo{
+    margin-left: 90px;
+}
+.rtc-logo-card{
+    display: flex;
+    font-size: medium;
+    background-color:aliceblue;
+    
+    
+}
+
+.text{
+    display:flex;
+    font-size:xx-large;
+    margin-left: 70px;
+}
+.btn{
+    text-align: center;
+    font-size: larger;
+    background-color:black;
+    color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn2{
+    text-align: center;
+    font-size: larger;
+    background-color:yellow;
+    color: black;
+    border-radius: 50px;
+    
+}
+.btn:hover{
+    background-color: red;
+    color: black;
+    border-radius: 20px 0 20px 0;
+}
+.btn2:hover{
+    background-color: red;
+    color: white;
+    border-radius: 20px 0 20px 0;
+}
+h1{
+    color:blue;
+}
+.right
+{
+    margin-left: 900px;
+}
+
