@@ -91,6 +91,28 @@ h1{
 .right
 {
     margin-left: 950px;
+    position: relative;
+    bottom: 500px;
+    display:flex;
+}
+.feature{
+    display: inline-block;
+    position: relative;
+    bottom:400px;
+    font-size: 30px;
+    color: blue;
+
+}
+.feature1{
+    font-size: 25px;
+    color: black;
+    position: relative;
+    bottom: 350px;
+    right: 320px;
+}
+#course1{
+    position: relative;
+    bottom: 480px;
 }
 .border{
     display: inline-block;
@@ -99,18 +121,33 @@ h1{
     border: 2px solid black;
     bottom: 520px;
     border-radius: 10px;
+    width: 400px;
+}
+.border1{
+    position: relative;
+    bottom: 300px;
 }
 .center{
     text-align: center;
-    bottom: 300px;
     position: relative;
-    font-size: 40px;
     
+   left:600px;
+    font-size: 70px;
+    bottom: 200px;
+   
+}
+.text-center{
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    left:300px;
+    bottom:100px;
 }
 .intership{
     position: relative;
     border: 2px solid black;
     height:250px;
+    right:200px;
     width:350px;
     bottom: 320px;
 }
@@ -118,6 +155,8 @@ h1{
     position: relative;
     font-size: 20px;
     left:22px;
+    right:100px;
+    text-align: center;
 }
 .text1{
     text-align:center;
@@ -126,31 +165,46 @@ h1{
     color: white;
     position: relative;
     left:120px;
+
     border-color: blue;
 }
 .course{
     display: flex;
+    position: relative; 
+    margin-left: 400px;
+    right:50px;
+    top:200px;  
+}
+.text-crs{
     position: relative;
-    left: 140px;
+    bottom: 400px;
+    
+    right:650px;
 }
 .main{
     display: flex;
     position: relative;
-    left: 140px;  
+  
+    left: 500px; 
+    bottom: 390px; 
 }
 .space
 {
 text-align:center;
 position: relative;
 left:100px;
+right:50px;
+
 }
 .teacher{
     position: relative;
+    text-align: center;
     border: 2px solid black;
     border-radius: 30px;
     height:400px;
     width:300px;
     left: 50px;
+    font-size: 30px;
 }
 .inline{
     display: flex;
@@ -171,6 +225,8 @@ left:100px;
 }
 .logo{
     border-radius:50px;
+    position: relative;
+    left:700px;
 
 }
 .logo1{
@@ -220,4 +276,10 @@ left:100px;
     text-align: center;
     bottom: 570px;
     left: 300px;
+}
+.learn{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left:450px;
 }
