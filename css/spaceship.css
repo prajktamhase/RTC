@@ -6,13 +6,71 @@ left:120px;
 bottom:80px;
 }
 .navbar{
-    display: inline-block;
+    display: flex;
     list-style: none;
-    text-decoration: none;
-    text-align: justify;
+    position: relative;
+    left: 200px;
 }
-.head{
-    display:flex;
+li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.space-text
+{
+    background-color:blue;
+    display: flex;
+    position: relative;
+   border: blue;
+    height: 300px;
+    width:1520px;
+    color:white; 
+  }
+   .space{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    left: 600px;
+   }
+.spaceship-text{
+    font-size: 25px;
+    position: relative;
+    top:70px;
+}
+.btn{
+
+    border: 2px solid black;
+    font-size: 30px;
+    position: relative;
+    left: 350px;
+    top:20px
+}
+.text-inline{
+    display: flex;
+}
+.text{
+    position: relative;
+    font-size: 30px;
+    top:250px;
+    right:320px;
+}
+.enter-text{
+    font-size: 20px;
+    position: relative;
+    top:330px;
+    right:570px;
+    margin-left: 45px;
+
+}
+.left{
+    position: relative;
+    right:280px;
     
 }
-
+.text1{
+    position: relative;
+    right:450px;
+    font-size: 30px;
+    top:250px;
+}
